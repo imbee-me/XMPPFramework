@@ -34,6 +34,6 @@ Pod::Spec.new do |s|
   }
   s.dependency 'CocoaLumberjack' # Skip pinning version because of the awkward 2.x->3.x transition
   s.dependency 'CocoaAsyncSocket', '~> 7.6.0'
-  s.dependency 'KissXML', :git => 'https://github.com/imbee-me/KissXML.git', :branch => 'feature/xcode15'
-  s.dependency 'libidn', :git => 'https://github.com/imbee-me/libidn-framework.git', :branch => 'feature/xcode15'
+  s.dependency 'KissXML', '~> 5.2.0'
+  s.dependency 'libidn', '~> 1.33.0'
 end
