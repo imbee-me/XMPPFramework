@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2 $(SDKROOT)/usr/include/libresolv',
   }
   s.dependency 'CocoaLumberjack' # Skip pinning version because of the awkward 2.x->3.x transition
-  s.dependency 'CocoaAsyncSocket', :git => 'https://github.com/cabmeurer/CocoaAsyncSocket.git', :commit => '0cf7f247f8a5aef88da91c461612167d7382f47d'
+  s.dependency 'CocoaAsyncSocket', '~> 7.6.0'
   s.dependency 'KissXML', '~> 5.2.666'
   s.dependency 'libidn', '~> 1.33.666'
 end
